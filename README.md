@@ -88,4 +88,4 @@ Additional Visuals can be found in https://github.com/Amyebaker/Project1/tree/ma
 
 ## Contributing Members
 
-**Team Leads (Contacts) : Kudirat Abdulsalam, Amy Baker, Lexie (Alexis) Fallow, Aminah Qandeel, Caleb Stevens 
+Kudirat Abdulsalam, Amy Baker, Lexie (Alexis) Fallow, Aminah Qandeel, Caleb Stevens 
