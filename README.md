@@ -3,12 +3,11 @@
 #### -- Project Status: Completed
 
 ## Project Intro/Objective
-The purpose of this project is to explore the income impact on higher education in the United States. We will be gathering data from 2019 to 2021 for those with a higher degree: Associates and Bachelor degrees, as well as those with no formal higher education.
+The purpose of this project is to explore the impact of higher education on income in the United States. We will be gathering data from 2019 to 2021 for those with a higher degree: Associates and Bachelor degrees, as well as those with no formal higher education.
 
 
 ### Methods Used
 * Inferential Statistics
-* Machine Learning
 * Data Visualization
 
 ### Technologies
