@@ -1,4 +1,5 @@
 # Drawing Conclusions: How Education Impacts Income Across the United States
+This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
 
 #### -- Project Status: Completed
 
@@ -20,9 +21,9 @@ The purpose of this project is to explore the income impact on higher education 
 
 ## Project Questions Addressed
 In this project we address these three main questions:
-1. What degree type (associates or bachelors) has the greatest impact on income?
-2. What is the correlation between education levels (higher education vs no higher education) and income?
-3. Which US Region has the highest amount of people with higher education degrees?
+1. What is the correlation between education levels (higher education vs no higher education) and income?
+2. What degree type (associates or bachelors) has the greatest impact on income?
+4. Which US Region has the highest amount of people with higher education degrees and does this region also have the highest income?
 
 
 ## Needs of this project
