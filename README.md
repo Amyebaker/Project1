@@ -31,6 +31,11 @@ In this project we address these three main questions:
 - statistical modeling
 - writeup/reporting
 
+## Limitations
+- After adjusting the per capita personal income, the outliers were eliminated which removed the state of Louisiana from our results. 
+- We adjusted the income to match the cost of living per state, to provide better findings. We understand people can have multiple degrees. (Associates, Bachelors, and higher degrees).
+
+
 ## Instructions
 ### Setting Up DataFrames
 
