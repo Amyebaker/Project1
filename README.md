@@ -5,7 +5,6 @@
 ## Project Intro/Objective
 The purpose of this project is to explore the impact of higher education on income in the United States. We will be gathering data from 2019 to 2021 for those with a higher degree: Associates and Bachelor degrees, as well as those with no formal higher education.
 
-
 ### Methods Used
 * Inferential Statistics
 * Data Visualization
@@ -88,3 +87,13 @@ Additional Visuals can be found in https://github.com/Amyebaker/Project1/tree/ma
 ## Contributing Members
 
 Kudirat Abdulsalam, Amy Baker, Lexie (Alexis) Fallow, Aminah Qandeel, Caleb Stevens 
+
+## Data Sources
+- Kaggle: Per Capita Income by County (2021) vs. Education (main data source)
+  - U.S. Bureau of Economic Analysis
+  - U.S. Department of Agriculture (USDA)
+
+- World Population Review: Cost of Living Index by State
+
+- Geoapify API Data
+
