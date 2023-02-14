@@ -1,5 +1,4 @@
 # Drawing Conclusions: How Education Impacts Income Across the United States
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
 
 #### -- Project Status: Completed
 
@@ -17,13 +16,14 @@ The purpose of this project is to explore the income impact on higher education 
 * Pandas
 * jupyter
 * matplotlib
-* spicy.stats
+* scipy
+* plotly
 
 ## Project Questions Addressed
 In this project we address these three main questions:
 1. What is the correlation between education levels (higher education vs no higher education) and income?
 2. What degree type (associates or bachelors) has the greatest impact on income?
-4. Which US Region has the highest amount of people with higher education degrees and does this region also have the highest income?
+3. Which US Region has the highest amount of people with higher education degrees and does this region also have the highest income?
 
 
 ## Needs of this project
@@ -33,14 +33,21 @@ In this project we address these three main questions:
 - statistical modeling
 - writeup/reporting
 
-## Instructions
+## Instructions- Setting Up DataFrames
 
-1. //Prepare the data using the provided package dependency and data imports, merge the mouse_metadata and study_reults DataFrames into a single DataFrame. 2. //Display the number of unique mice IDs and check for any mouse ID with duplicate time points. Remove the duplicate and create a new Dataframe. Display the updated number of unique mice ID.
-2. Generate summary statistics that shows a row for each [insert] and a column for each of the following statistics: mean, median, variance, standard deviation
-3. Create [xxx] charts and [xxx] charts using both Panda DataFrame.plot() and Matplotlib pyplot to show [what are we showing]
-4. Calculate quartiles, find outliers of  across four of the most promising treatment regimens (state/region) and use Matplot to generate a box plot that shows [what does it show]
-5. Create a [plot]
-6. Calculate the correlation coefficient and linear regression model between degree and level of education and plot linear regression model on top of the previous scatter plot.
+1. Prepare the data using the provided package dependency and data imports. Remove unncecessary columns from the costindex dataframe (You will only be keeping the "State" and "costIndex" columns from the costindex dataframe)
+2. Invert the state dictionary and update the state column to show state abbreviations in place of the full state name
+3. Merge the income and new_cost DataFrames into a single DataFrame. 
+4. Using the merged dataframe calculate and display the "Adjusted Per Capita Personal Income 2021" by county and format properly. 
+5. Remove unnecessary columns and rename reamining columns to display information: Per Capita Income 2021, Count of Associate Degrees, Count of Bachelor Degrees or Higher, Percent of Associate Degreesm Percent of Bachelor Degrees or Higher. Add a column to show: Percent of No College, Percent with Any College and Count of Any College Degree
+6. Using the group by function, generate a summarary by state.
+
+##Instructions - Visualizing Data
+1. Create a box and whisker plot using both Panda DataFrame.plot() and Matplotlib pyplot to show the Adjusted Per Capita Personal Income for 2021 by State.
+2. Calculate quartiles, find outliers in the dataset and remove.
+
+##Instructions - College Vs. No College Analysis
+1. Create scatter plot using matplotlib to show % of Any College Degree vs Adjusted per Capita Personal Income 2021. 
 
 
 
