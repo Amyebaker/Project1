@@ -1,5 +1,4 @@
 # Drawing Conclusions: How Education Impacts Income Across the United States
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
 
 #### -- Project Status: Completed
 
